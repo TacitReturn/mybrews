@@ -13,6 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+
 Route::get('/', function () {
-    return view('welcome');
+
+    // Make GET request to BreweryDB
+
+    $beers = \Illuminate\Support\Facades\Http::get('https://sandbox-api.brewerydb.com/v2/beers?key=' . config('services.brewerydb.key'));
+
+    return $beers->json();
 });
+
