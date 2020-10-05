@@ -149,15 +149,15 @@
 
                             <li>
 
-                                <h1 class="h1-responsive font-weight-bold">Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit
+                                <h1 class="h1-responsive font-weight-bold">
+                                    View brews from all over the world!
                                 </h1>
 
                             </li>
 
                             <li>
 
-                                <p>Tempora incidunt ut labore et dolore veritatis et quasi architecto beatae</p>
+                                <p>Perhaps even the galaxy.</p>
 
                             </li>
 
@@ -198,14 +198,17 @@
 
                             <li>
 
-                                <h1 class="h1-responsive font-weight-bold">Nemo enim ipsam voluptatem quia voluptas
-                                    sit </h1>
+                                <h1 class="h1-responsive font-weight-bold">
+                                    Fast service.
+                                </h1>
 
                             </li>
 
                             <li>
 
-                                <p>Nemo enim ipsam voluptatem quia veritatis et quasi architecto beatae</p>
+                                <p>
+                                    Get what you need when you need it.
+                                </p>
 
                             </li>
 
@@ -213,9 +216,7 @@
 
                                 <a target="_blank" href="#"
                                    class="btn btn-info"
-                                   rel="nofollow">Read
-
-                                    more</a>
+                                   rel="nofollow">Read more</a>
 
                             </li>
 
@@ -249,15 +250,17 @@
 
                             <li>
 
-                                <h1 class="h1-responsive font-weight-bold">Sed ut perspiciatis unde omnis iste natus sit
-                                    voluptatem
+                                <h1 class="h1-responsive font-weight-bold">
+                                    Enjoy free access to the worlds largest beer/brew website.
                                 </h1>
 
                             </li>
 
                             <li>
 
-                                <p>Unde omnis iste natus sit voluptatem veritatis et quasi architecto beatae</p>
+                                <p>
+                                    Take a look around.
+                                </p>
 
                             </li>
 
