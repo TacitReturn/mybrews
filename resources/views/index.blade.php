@@ -107,11 +107,31 @@
 </header>
 <!-- Navigation -->
 
-<ul>
-    @foreach($beers as $beer)
-        <li>{{ $beer['nameDisplay'] }}</li>
-    @endforeach
-</ul>
+{{--<div class="d-flex">--}}
+{{--    <ul>--}}
+{{--        <h1>Beer Name</h1>--}}
+{{--        @foreach($beers as $beer)--}}
+{{--            <li>{{ $beer['name'] }}</li>--}}
+
+{{--        @endforeach--}}
+{{--    </ul>--}}
+{{--    <ul>--}}
+{{--        <h1>Beer Description</h1>--}}
+{{--        @foreach($beers as $beer)--}}
+{{--            @if(key_exists('description', $beer))--}}
+{{--                <li>{{ $beer['description'] }}</li>--}}
+{{--            @endif--}}
+{{--        @endforeach--}}
+{{--    </ul>--}}
+{{--    <ul>--}}
+{{--        Original Gravity--}}
+{{--        @foreach($beers as $beer)--}}
+{{--            @if(key_exists('originalGravity', $beer))--}}
+{{--                <li>{{ $beer['originalGravity'] }}</li>--}}
+{{--            @endif--}}
+{{--        @endforeach--}}
+{{--    </ul>--}}
+{{--</div>--}}
 
 <!-- Carousel Wrapper -->
 <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
