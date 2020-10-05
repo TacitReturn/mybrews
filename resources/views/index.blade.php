@@ -136,7 +136,8 @@
 
             <div class="view h-100">
 
-                <img class="d-block h-100 w-lg-100" src="https://mdbootstrap.com/img/Photos/Others/city10.jpg"
+                <img class="d-block h-100 w-lg-100" src="{{ asset('img/beer/beer-header1.jpeg') }}"
+                     style="width: 100%"
                      alt="First slide">
 
                 <div class="mask rgba-black-light">
@@ -162,7 +163,7 @@
 
                             <li>
 
-                                <a target="_blank" href="https://mdbootstrap.com/docs/jquery/getting-started/download/"
+                                <a target="_blank" href="#"
                                    class="btn btn-info" rel="nofollow">See more!</a>
 
                             </li>
@@ -184,7 +185,8 @@
 
             <div class="view h-100">
 
-                <img class="d-block h-100 w-lg-100" src="https://mdbootstrap.com/img/Photos/Others/slider1.jpg"
+                <img class="d-block h-100 w-lg-100" src="{{ asset('img/beer/beer-header2.jpeg') }}"
+                     style="width: 100%"
                      alt="Second slide">
 
                 <div class="mask rgba-stylish-strong">
@@ -209,7 +211,7 @@
 
                             <li>
 
-                                <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/"
+                                <a target="_blank" href="#"
                                    class="btn btn-info"
                                    rel="nofollow">Read
 
@@ -234,7 +236,8 @@
 
             <div class="view h-100">
 
-                <img class="d-block h-100 w-lg-100" src="https://mdbootstrap.com/img/Photos/Others/city8.jpg"
+                <img class="d-block h-100 w-lg-100" src="{{ asset('img/beer/beer-header3.jpeg') }}"
+                     style="width: 100%"
                      alt="Third slide">
 
                 <div class="mask rgba-black-light">
