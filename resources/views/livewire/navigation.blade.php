@@ -1,6 +1,6 @@
 <div>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark stylish-color-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark warning-color lighten-5">
 
         <!-- Navbar brand -->
         <a class="navbar-brand pr-3" href="#">{{ config('app.name') }}</a>

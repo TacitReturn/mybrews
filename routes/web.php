@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Http;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,8 +20,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
-//    $beers = \Illuminate\Support\Facades\Http::get('https://sandbox-api.brewerydb.com/v2/beers?key=' . config('services.brewerydb.key'));
+    $beers = Http::get('https://sandbox-api.brewerydb.com/v2/beers?key=' . config('services.brewerydb.key'))->json()['data'];
 
-    return view('index');
+    dump($beers);
+
+    return view('index')->with('beers', $beers);
 });
 
