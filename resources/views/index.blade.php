@@ -344,8 +344,9 @@
                 <!-- Section: Magazine posts -->
                 <section class="section extra-margins">
 
-                    <h4 class="font-weight-bold"><strong>LATESTS NEWS</strong></h4>
-
+                    <h4 class="font-weight-bold">
+                        <strong>LATEST BREWS</strong>
+                    </h4>
                     <hr class="mr-4 red">
 
                     <!-- First row -->
@@ -360,7 +361,7 @@
                                 <!-- Card image -->
                                 <div class="view overlay">
 
-                                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/City/6-col/img%20(49).jpg"
+                                    <img src="{{ asset('img/beer/beer1.webp') }}"
                                          class="card-img-top" alt="sample image">
 
                                     <a>
@@ -380,18 +381,13 @@
                                 <div class="card-body">
 
                                     <!-- Title -->
-                                    <h4 class="card-title"><strong>Card title</strong></h4>
+                                    <h4 class="card-title"><strong>Beer/Brew Name</strong></h4>
 
                                     <hr>
 
                                     <!-- Text -->
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the
-
-                                        card's
-
-                                        content.
-
+                                    <p class="card-text">
+                                        Beer/Brew description here..
                                     </p>
 
                                 </div>
@@ -402,7 +398,8 @@
 
                                     <ul class="list-unstyled list-inline font-small mt-3">
 
-                                        <li class="list-inline-item pr-2 white-text"><i class="far fa-clock-o pr-1"></i>05/10/2015
+                                        <li class="list-inline-item pr-2 white-text"><i class="far fa-clock-o pr-1"></i>
+                                            05/10/2015
                                         </li>
 
                                         <li class="list-inline-item pr-2"><a href="#" class="white-text"><i
@@ -437,7 +434,7 @@
                                 <!-- Card image -->
                                 <div class="view overlay">
 
-                                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/People/6-col/img%20(33).jpg"
+                                    <img src="{{ asset('img/beer/beer2.webp') }}"
                                          class="card-img-top" alt="sample image">
 
                                     <a>
@@ -457,18 +454,13 @@
                                 <div class="card-body">
 
                                     <!-- Title -->
-                                    <h4 class="card-title"><strong>Card title</strong></h4>
+                                    <h4 class="card-title"><strong>Beer/Brew name</strong></h4>
 
                                     <hr>
 
                                     <!-- Text -->
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the
-
-                                        card's
-
-                                        content.
-
+                                    <p class="card-text">
+                                        Beer/Brew Description..
                                     </p>
 
                                 </div>
@@ -479,7 +471,8 @@
 
                                     <ul class="list-unstyled list-inline font-small mt-3">
 
-                                        <li class="list-inline-item pr-2 white-text"><i class="far fa-clock-o pr-1"></i>05/10/2015
+                                        <li class="list-inline-item pr-2 white-text"><i class="far fa-clock-o pr-1"></i>
+                                            05/10/2015
                                         </li>
 
                                         <li class="list-inline-item pr-2"><a href="#" class="white-text"><i
@@ -521,7 +514,7 @@
                                 <div class="view overlay">
 
                                     <img
-                                        src="https://mdbootstrap.com/img/Photos/Horizontal/People/6-col/img%20(113).jpg"
+                                        src="{{ asset('img/beer/beer3.webp') }}"
                                         class="card-img-top" alt="sample image">
 
                                     <a>
@@ -541,18 +534,13 @@
                                 <div class="card-body">
 
                                     <!-- Title -->
-                                    <h4 class="card-title"><strong>Card title</strong></h4>
+                                    <h4 class="card-title"><strong>Beer/Brew Name</strong></h4>
 
                                     <hr>
 
                                     <!-- Text -->
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the
-
-                                        card's
-
-                                        content.
-
+                                    <p class="card-text">
+                                        Beer/Brew Description..
                                     </p>
 
                                 </div>
@@ -598,7 +586,7 @@
                                 <!-- Card image -->
                                 <div class="view overlay">
 
-                                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Work/6-col/img%20(39).jpg"
+                                    <img src="{{ asset('img/beer/beer4.webp') }}"
                                          class="card-img-top" alt="sample image">
 
                                     <a>
@@ -618,18 +606,13 @@
                                 <div class="card-body">
 
                                     <!-- Title -->
-                                    <h4 class="card-title"><strong>Card title</strong></h4>
+                                    <h4 class="card-title"><strong>Brew/Beer Name</strong></h4>
 
                                     <hr>
 
                                     <!-- Text -->
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the
-
-                                        card's
-
-                                        content.
-
+                                    <p class="card-text">
+                                        Beer/Brew Description..
                                     </p>
 
                                 </div>
